@@ -1,0 +1,16 @@
+// This variable tells us the temperature recorded on a specific day (measured in Kelvin)
+const kelvin = 0
+
+// We are converting temperature recorded in Kelvin to Celsius
+let celsius = kelvin - 273
+//Into Fahrenheit
+let fahrenheit = celsius * (9/5) + 32
+//Rounding off fahrenheit decimal value
+fahrenheit = Math.floor(fahrenheit)
+console.log(`the temperature is ${fahrenheit} degrees Fahrenheit.`)
+
+//Converting celsius into Newton
+let newton = celsius * (33/100)
+newton = Math.floor(newton)
+console.log(`the temperature in ${newton} N.`)
+
